@@ -1,7 +1,9 @@
 Customer Churn Prediction using Artificial Neural Networks
 Project Overview
 
-Customer churn is a major challenge for businesses, especially in industries such as telecommunications, banking, and subscription-based services. This project aims to predict whether a customer is likely to discontinue a service using machine learning techniques. By identifying customers at risk of leaving, companies can take proactive measures to improve retention.
+Customer churn is a major challenge for businesses, especially in industries such as telecommunications, banking, and subscription-based services.
+
+This project aims to predict whether a customer is likely to discontinue a service using machine learning techniques. By identifying customers at risk of leaving, companies can take proactive measures to improve retention.
 
 Objectives
 
@@ -13,13 +15,15 @@ Help businesses make data-driven decisions to reduce customer attrition.
 
 Dataset and Preprocessing
 
-The dataset contains various customer-related features such as demographics, service usage, and account information. The following preprocessing steps were performed:
+The dataset contains various customer-related features such as demographics, service usage, and account information.
+
+Preprocessing Steps
 
 Data Cleaning – handled missing values and removed inconsistencies.
 
 Data Encoding – converted categorical variables into numerical form.
 
-Feature Scaling – applied scaling techniques to normalize feature values.
+Feature Scaling – normalized feature values for better model performance.
 
 Exploratory Data Analysis (EDA) – used visualizations to understand feature distributions and correlations with churn.
 
@@ -27,13 +31,13 @@ Model Architecture
 
 An Artificial Neural Network (ANN) was implemented to predict customer churn.
 
-Key components:
+Key Components
 
-Input layer based on the number of selected features
+Input Layer – based on the number of selected features
 
-Hidden layers with activation functions (ReLU)
+Hidden Layers – using ReLU activation function
 
-Output layer with Sigmoid activation for binary classification
+Output Layer – Sigmoid activation for binary classification
 
 Optimizer: Adam
 
@@ -41,7 +45,7 @@ Loss Function: Binary Crossentropy
 
 Model Performance
 
-The ANN model was trained and evaluated on the dataset with the following results:
+The ANN model was trained and evaluated with the following results:
 
 Training Accuracy: 94.52%
 
@@ -57,9 +61,11 @@ Pandas – data manipulation and preprocessing
 
 NumPy – numerical computations
 
-Scikit-learn – preprocessing and evaluation tools
+Scikit-learn – preprocessing and model evaluation
 
-Matplotlib & Seaborn – data visualization
+Matplotlib – data visualization
+
+Seaborn – statistical data visualization
 
 Artificial Neural Networks (ANN) – predictive modeling
 
@@ -71,4 +77,4 @@ Data preprocessing and visualization
 
 Neural network-based churn prediction model
 
-Model evaluation with accuracy metrics
+Model evaluation using accuracy metrics
