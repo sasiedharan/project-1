@@ -1,80 +1,78 @@
-Customer Churn Prediction using Artificial Neural Networks
-Project Overview
+# Customer Churn Prediction using Artificial Neural Networks
 
-Customer churn is a major challenge for businesses, especially in industries such as telecommunications, banking, and subscription-based services.
+## Project Overview
 
-This project aims to predict whether a customer is likely to discontinue a service using machine learning techniques. By identifying customers at risk of leaving, companies can take proactive measures to improve retention.
+Customer churn is a major challenge for businesses, especially in industries such as **telecommunications, banking, and subscription-based services**.
 
-Objectives
+This project aims to **predict whether a customer is likely to discontinue a service** using machine learning techniques. By identifying customers at risk of leaving, companies can take **proactive measures to improve retention**.
 
-Analyze customer data to identify patterns related to churn.
+---
 
-Build a predictive model to classify customers as churn or non-churn.
+## Objectives
 
-Help businesses make data-driven decisions to reduce customer attrition.
+- **Analyze customer data** to identify patterns related to churn.
+- **Build a predictive model** to classify customers as **churn** or **non-churn**.
+- Help businesses make **data-driven decisions** to reduce customer attrition.
 
-Dataset and Preprocessing
+---
 
-The dataset contains various customer-related features such as demographics, service usage, and account information.
+## Dataset and Preprocessing
 
-Preprocessing Steps
+The dataset contains various **customer-related features** such as demographics, service usage, and account information.
 
-Data Cleaning – handled missing values and removed inconsistencies.
+### Preprocessing Steps
 
-Data Encoding – converted categorical variables into numerical form.
+- **Data Cleaning** – handled missing values and removed inconsistencies.
+- **Data Encoding** – converted categorical variables into numerical form.
+- **Feature Scaling** – normalized feature values.
+- **Exploratory Data Analysis (EDA)** – used visualizations to understand feature distributions and correlations with churn.
 
-Feature Scaling – normalized feature values for better model performance.
+---
 
-Exploratory Data Analysis (EDA) – used visualizations to understand feature distributions and correlations with churn.
+## Model Architecture
 
-Model Architecture
+An **Artificial Neural Network (ANN)** was implemented to predict customer churn.
 
-An Artificial Neural Network (ANN) was implemented to predict customer churn.
+### Key Components
 
-Key Components
+- **Input Layer** – based on the number of selected features
+- **Hidden Layers** – using **ReLU activation function**
+- **Output Layer** – **Sigmoid activation** for binary classification
+- **Optimizer:** **Adam**
+- **Loss Function:** **Binary Crossentropy**
 
-Input Layer – based on the number of selected features
+---
 
-Hidden Layers – using ReLU activation function
+## Model Performance
 
-Output Layer – Sigmoid activation for binary classification
+- **Training Accuracy:** **94.52%**
+- **Testing Accuracy:** **89.74%**
 
-Optimizer: Adam
+The model performs well in predicting customer churn and generalizes effectively to unseen data.
 
-Loss Function: Binary Crossentropy
+---
 
-Model Performance
+## Technologies Used
 
-The ANN model was trained and evaluated with the following results:
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Scikit-learn**
+- **Matplotlib**
+- **Seaborn**
+- **Artificial Neural Networks (ANN)**
 
-Training Accuracy: 94.52%
+---
 
-Testing Accuracy: 89.74%
+## Key Features
 
-These results indicate that the model performs well in predicting customer churn and generalizes effectively to unseen data.
+- End-to-end **machine learning workflow**
+- **Data preprocessing and visualization**
+- **Neural network-based churn prediction**
+- **Model evaluation using accuracy metrics**
 
-Technologies Used
+---
 
-Python
+## Conclusion
 
-Pandas – data manipulation and preprocessing
-
-NumPy – numerical computations
-
-Scikit-learn – preprocessing and model evaluation
-
-Matplotlib – data visualization
-
-Seaborn – statistical data visualization
-
-Artificial Neural Networks (ANN) – predictive modeling
-
-Key Features
-
-End-to-end machine learning workflow
-
-Data preprocessing and visualization
-
-Neural network-based churn prediction model
-
-Model evaluation using accuracy metrics
+This project demonstrates how **Artificial Neural Networks can effectively predict customer churn** using historical customer data. The model helps organizations **identify high-risk customers and improve retention strategies**.
